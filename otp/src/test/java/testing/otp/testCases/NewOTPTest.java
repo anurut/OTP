@@ -19,7 +19,8 @@ public class NewOTPTest extends TestBase{
 		
 		pcEnterPhoneNo = new EnterPhoneNumberScreen(driver);
 		
-		pcEnterPhoneNo.enterPhoneNumber("7404148024");
+		//Enter phone number at which you want to get the OTP
+		pcEnterPhoneNo.enterPhoneNumber("Enter phone number here");
 		pcEnterPhoneNo.clickSubmitButton();
 	}
 
