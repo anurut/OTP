@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OTP Framework" duration-ms="89108" started-at="2019-07-01T10:54:33Z" finished-at="2019-07-01T10:56:02Z">
+    <groups>
+    </groups>
+    <test name=" OTP Test" duration-ms="89108" started-at="2019-07-01T10:54:33Z" finished-at="2019-07-01T10:56:02Z">
+      <class name="testing.otp.testCases.NewOTPTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testing.otp.testCases.NewOTPTest@31ef45e3]" name="setUp" is-config="true" duration-ms="69907" started-at="2019-07-01T16:23:23Z" finished-at="2019-07-01T16:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testing.otp.testCases.NewOTPTest@31ef45e3]" name="init" is-config="true" duration-ms="9" started-at="2019-07-01T16:24:33Z" finished-at="2019-07-01T16:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="enterPhoneNumber()[pri:1, instance:testing.otp.testCases.NewOTPTest@31ef45e3]" name="enterPhoneNumber" duration-ms="48157" started-at="2019-07-01T16:24:33Z" finished-at="2019-07-01T16:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPhoneNumber -->
+        <test-method status="PASS" signature="enterOTPReceived()[pri:2, instance:testing.otp.testCases.NewOTPTest@31ef45e3]" name="enterOTPReceived" duration-ms="38998" started-at="2019-07-01T16:25:22Z" finished-at="2019-07-01T16:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOTPReceived -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testing.otp.testCases.NewOTPTest@31ef45e3]" name="tearDown" is-config="true" duration-ms="10291" started-at="2019-07-01T16:26:07Z" finished-at="2019-07-01T16:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.otp.testCases.NewOTPTest -->
+    </test> <!--  OTP Test -->
+  </suite> <!-- OTP Framework -->
+</testng-results>
