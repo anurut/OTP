@@ -69,7 +69,6 @@ public class ScreenBase {
 
 		for(int i=0; i<listElement.size();i++) {
 
-
 			if (listElement.get(i).getText().contains(elementName)) {
 				System.out.println("*Got* " + listElement.get(i).getText());
 				return listElement.get(i);
@@ -79,6 +78,7 @@ public class ScreenBase {
 	}
 
 
+	//To click hardware back button
 	public void clickBackButton() {
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 	}

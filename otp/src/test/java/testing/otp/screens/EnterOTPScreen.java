@@ -14,11 +14,11 @@ public class EnterOTPScreen extends ScreenBase{
 
 	public EnterOTPScreen(AndroidDriver<AndroidElement> driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		
 	}
 			
 		//To enter OTP fetched from the notification panel
-		public void enterOTP(String otp) {
+		public EnterOTPScreen enterOTP(String otp) {
 
 			try {
 				AndroidElement otpBox = driver.findElement(By.id("com.makemytrip:id/otp_edit_text"));
@@ -27,7 +27,7 @@ public class EnterOTPScreen extends ScreenBase{
 					System.out.println("");
 					System.out.println("--------- Entering OTP ---------");
 
-					if(!(otp == null)) {
+					if(otp != null) {
 						
 						otpBox.sendKeys(otp);
 					}
@@ -38,8 +38,10 @@ public class EnterOTPScreen extends ScreenBase{
 				System.out.println("OTP textbox not displayed, are you on the right page?");
 
 			}
+			return this;
 		}
 
+		//Click submit button after entering otp
 		public void clickSubmitButton() {
 
 			System.out.println("");

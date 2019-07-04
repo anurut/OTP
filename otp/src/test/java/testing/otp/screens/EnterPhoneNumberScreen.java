@@ -16,10 +16,10 @@ public class EnterPhoneNumberScreen extends ScreenBase{
 
 	public EnterPhoneNumberScreen(AndroidDriver<AndroidElement> driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		
 	}
 
-
+	//Steps required to go to the login screen from Main Screen 1
 	private void goToEnterPhoneNumberTextBox() {
 		try {
 
@@ -27,7 +27,7 @@ public class EnterPhoneNumberScreen extends ScreenBase{
 			if (enterMobile.isDisplayed()) {
 
 				System.out.println("");
-				System.out.println("--------- Going to Enter Mobile Number ---------");
+				System.out.println("--------- Going to Enter Mobile Number Screen ---------");
 
 				enterMobile.click();
 			}
@@ -93,7 +93,7 @@ public class EnterPhoneNumberScreen extends ScreenBase{
 
 
 
-	//To enter phone number 
+	//To enter phone number
 	public EnterPhoneNumberScreen enterPhoneNumber(String phNumber) {
 
 		switch (whichScreen()) {

@@ -99,8 +99,6 @@ public class NotificationScreen extends ScreenBase{
 
 		for(int i=0; i<=3; i++) {
 			
-			System.out.println("Inside for loop");
-			
 			Thread.sleep(2000);
 			if(OTP.length()==0) {
 				OTP = OTPloop(Size, messageText);
