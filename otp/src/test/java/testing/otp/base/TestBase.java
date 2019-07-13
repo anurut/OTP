@@ -25,7 +25,7 @@ public class TestBase {
 	
 	public static AndroidDriver<AndroidElement> driver;
 
-	public static String loadPropertyFile = "Android_Moto_phoneCash.properties";
+	public static String loadPropertyFile = "Android_Motorola_mmt.properties";
 
 	public SoftAssert softAssertion;
 
