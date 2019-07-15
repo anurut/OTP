@@ -11,5 +11,9 @@ More in-depth explanation is at [this Medium blog post.](https://link.medium.com
 
 # Handling multiple Main/Landing pages
 
-This same project also implements the case where the User is taken to a different Main page randomly i.e. After each launch user sees a different Main page(Out of possible four) in the application. The main logic is in the 'EnterPhoneNumberScreen.java' file found [here](https://github.com/anurut/OTP/blob/master/otp/src/test/java/testing/otp/screens/EnterPhoneNumberScreen.java). Complete step by step information is given at this blog [post](https://medium.com/noobqa/appium-handling-the-case-when-users-get-different-main-landing-pages-4aed0db1dcd2).
+This same project also implements the case where the User is taken to a different Main page randomly i.e. After each launch user sees a different Main page(Out of possible four) in the application.
+
+The main logic is in the `EnterPhoneNumberScreen.java` file found [here](https://github.com/anurut/OTP/blob/master/otp/src/test/java/testing/otp/screens/EnterPhoneNumberScreen.java). 
+
+Complete step by step information is given at this blog [post](https://medium.com/noobqa/appium-handling-the-case-when-users-get-different-main-landing-pages-4aed0db1dcd2).
 
